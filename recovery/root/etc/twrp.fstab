@@ -1,6 +1,6 @@
 # twrp
 /cache          yaffs2      cache
 /system         yaffs2      system
-/data           ext4        /dev/block/mmcblk0p2      flags=removable;encryptable=footer;length=-16384
-/data           f2fs        /dev/block/mmcblk0p2      flags=removable;encryptable=footer;length=-16384
+/data           ext4        /dev/block/mmcblk0p2      flags=display="Data (ext4)";removable;encryptable=footer;length=-16384
+/data           f2fs        /dev/block/mmcblk0p2      flags=display="Data (f2fs)";removable;encryptable=footer;length=-16384
 /sdcard         auto        /dev/block/mmcblk0p1      flags=display="Micro SDcard";storage;removable
