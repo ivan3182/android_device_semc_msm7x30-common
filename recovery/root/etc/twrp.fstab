@@ -1,4 +1,5 @@
-# twrp
+# <mount point> <type>       <file system>            <flags>
+
 /cache          yaffs2      cache
 /system         yaffs2      system
 /data           ext4        /dev/block/mmcblk0p2      flags=display="Data (ext4)";removable
