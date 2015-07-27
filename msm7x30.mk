@@ -51,8 +51,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/fstab.semc:root/fstab.semc
 
-# twrp.fstab
+# TWRP
 PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/recovery/root/etc/mke2fs.conf:recovery/root/etc/mke2fs.conf \
     $(COMMON_PATH)/recovery/root/etc/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # Common device specific configs
