@@ -88,6 +88,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/msm_hsusb/gadget/lun%d
 TARGET_RECOVERY_DEVICE_DIRS += device/semc/msm7x30-common
 
 # TWRP
+DEVICE_RESOLUTION := $(TARGET_SCREEN_WIDTH)x$(TARGET_SCREEN_HEIGHT)
 TW_CUSTOM_BATTERY_PATH := /sys/class/power_supply/bq27520
 
 # Kernel
