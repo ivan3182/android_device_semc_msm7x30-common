@@ -5,4 +5,4 @@
 /data           ext4        /dev/block/mmcblk0p2      flags=display="Data (ext4)";removable
 /data           f2fs        /dev/block/mmcblk0p2      flags=display="Data (f2fs)";removable
 /sdcard         auto        /dev/block/mmcblk0p1      flags=display="Micro SDcard";storage;removable
-/usb-otg        auto        /dev/block/sda1           flags=display="Micro SDcard";storage;removable
+/usb-otg        auto        /dev/block/sda1           flags=display="USB OTG";storage;removable
